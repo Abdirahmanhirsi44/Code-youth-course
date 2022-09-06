@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 0.9em;
+}
+a{
+    margin:5px;
+    text-decoration: none;
+    color:black
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+.hnav{
+    display:flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right:10px ;
+}
+.hnav,.himg{
+    padding:0 8px
+}
+.himg:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+}
