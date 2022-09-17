@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function double(n){
+
+
+return n*2;
+}
+
+function reduce(n){
+return n/2;
+}
+
+function sum_n(n){
+    let sum=0
+    for (let i=1; i<=n; i++){
+        sum+=i
+    }
+return sum;
+}
+
+let n = parseFloat(prompt("enter a number"))
+if (n<=10){
+    console.log("sum of numbers", sum_n(n));
+
+}
+else if (n>10 && n<=20){
+    console.log("double of this number",double(n));
+
+}
+
+else{
+    console.log("numbers reduced in half",reduce(n));
+
+}
+    </script>
+
+</body>
+</html>
