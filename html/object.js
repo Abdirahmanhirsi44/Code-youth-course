@@ -72,65 +72,60 @@
 
 // console.log(nestObj)
 
-    let weather = {
-   sea1 : {
-    day1 : "Sunny",
-    day2 : "Cloudy",
-    day3 : "Raining"
-   }
-    ,
+//     let weather = {
+//    sea1 : {
+//     day1 : "Sunny",
+//     day2 : "Cloudy",
+//     day3 : "Raining"
+//    }
+//     ,
 
-    sea2 : {
-        day4: "Snowing",
-        day5: "Hail",
-        day6: "tornado"
-    }
+//     sea2 : {
+//         day4: "Snowing",
+//         day5: "Hail",
+//         day6: "tornado"
+//     }
 
 
-}
-console.log(weather)
+// }
+// console.log(weather)
+
+
+
 
 // let workPlace = {
-//     names:{
-//     employee1: "Jimmy",
-//     employee2: "Carl",
-//     employee3: "Benny"
-//     }
-// ,
+//     employee1:{
+//             name: "Andrew",
+//             Id: "#5123571",
+//             HireDate: (new Date(2022-2-12))
+//         }
 
-// keys:{
-//     Name: "Andrew",
-//     Id: "#213419095",
-//     HireDate: (new Date())
+//         ,
 
-// }}
-// console.log(workPlace)
-// console.log(workPlace.keys.HireDate)
-
-
-let workPlace = {
-    employee1:{
-            name: "Andrew",
-            Id: "#5123571",
-            HireDate: (new Date(2022-2-12))
-        }
-
-        ,
-
-        employee2:{
-        name: "Benny",
-        Id: "#8937876591",
-         HireDate: (new Date())
-        }
+//         employee2:{
+//         name: "Benny",
+//         Id: "#8937876591",
+//          HireDate: (new Date())
+//         }
     
-        ,
+//         ,
     
-        employee3:{
-        name: "Carl",
-        Id: "123519222",
-        HireDate: (new Date())
-    }}
+//         employee3:{
+//         name: "Carl",
+//         Id: "123519222",
+//         HireDate: (new Date())
+//     }}
 
-    console.log(workPlace)
-    console.log(workPlace.employee2.Id)
-    console.log(workPlace.employee1.HireDate)
+//     console.log(workPlace)
+//     console.log(workPlace.employee2.Id)
+//     console.log(workPlace.employee1.HireDate)
+
+
+
+
+
+
+
+
+
+

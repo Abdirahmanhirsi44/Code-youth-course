@@ -47,9 +47,9 @@
 // console.log(arr2)
 // console.log(arr2.includes("dog"));
 
-let d1 = [1,2,3,4,5]
-console.log(d1)
-console.log(d1.includes(4))
+// let d1 = [1,2,3,4,5]
+// console.log(d1)
+// console.log(d1.includes(4))
 
 
 // let nums = [];
