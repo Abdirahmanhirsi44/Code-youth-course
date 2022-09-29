@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div>
+        <h1 id = "head1">Heading</h1>
+        <p>First Paragraph</p>
+        <p>Second Paragraph</p>
+        <button onclick="fn()">Click me</button>
+    </div>
+    
+    <script>
+        function fn(){
+            let heading = document.getElementById("head1");
+            console.log(heading);
+            heading.style.color="red";
+            let paras = document.querySelectorAll("p");
+            for (let i=0;i<paras.length;i++){
+                paras[i].style.color="blue";
+            }
+            // paras.forEach((item)=>item.style.color=("green")
+        } -->
+    <!-- </script> -->
+<!-- <div>
+<h1>Fruits</h1>
+<ol>
+    <li class = "red1">apple</li>
+    <li class = "green1">kiwi</li>
+    <li id = "yellow">banana</li>
+    <li id = "orange1">orange</li>
+    <li class = "red1">strawberry</li>
+    <li class = "red1">pemegrante</li>
+    <li class = "green1">grapes</li>
+    <button onclick="fn()">Change Color</button>
+
+</ol>  
+</div>
+<script>
+    function fn(){
+let apple = document.querySelector(".red1")
+apple.style.color="red"
+let kiwi  = document.querySelector(".green1")
+kiwi.style.color="green"
+let banana = document.querySelector("#yellow")
+banana.style.color="yellow"
+let orange = doument.querySelector("#orange1")
+orange.style.color="orange"
+let strawberry = document.querySelector(".red1")
+strawberry.style.color="red"
+let pemegrante = document.querySelector(".red1")
+pemegrante.style.color= "red"
+let grapes = document.querySelector(".red1")
+    }
+</script>   -->
+</body>
+
+<h1>Fruits</h1>
+<ol>
+    <li class = "red1">apple</li>
+    <li class = "green1">kiwi</li>
+    <li id = "yellow">banana</li>
+    <li id = "orange1">orange</li>
+    <li class = "red1">strawberry</li>
+    <li class = "red1">pemegrante</li>
+    <li class = "green1">grapes</li>
+</ol>
+<button onclick="change()">Change color</button>
+
+<script>
+     function change(){
+    let red = document.querySelectorAll(".red1")
+    for (let i = 0; i<red.length;i++){
+        red[i].style.color="red";
+    }
+    let green = document.querySelectorAll(".green1");
+        for (let j=0; j<green.length;j++){
+            green[j].style.color="green"
+
+        }
+    document.getElementById("yellow").style.color="yellow";
+    document.getElementById("orange1").style.color="orange";
+    
+    let h1 = document.querySelector("h1");
+    h1.innerHTML= "list of Fruits";
+    }
+    </script>
+</html>
