@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1></h1>
+<button onclick="function1 ()" ondblclick='alert("welcome")'  onmouseenter= "function2()">Click</button>
+<script>
+    let h1 = document.querySelector("h1")
+    function function1(){
+        h1.innerHTML= "heading";
+        h1.style.color="red"
+
+    }
+
+    function function2(){
+        h1.innerHTML="heading2"
+        h1.style.color="blue"
+    } -->
+<!-- </script> -->
+<!-- <p>Get to know the candidates running for Ottawa city 
+    council with our ward profile series.
+    We asked councilhopefuls<span onmouseenter="function2()"> a few questions and will be 
+    publishing their answers,</span> ward by ward.</p>
+ 
+<script>
+    let s1 = document.getElementsByTagName("span")
+    function function2 (){
+    s1.style.backgroundcolor="yellow"
+    } -->
+    
+    <input type="button" onmouseover="ChangeColor()" value="Button" id="btn1">
+<script>
+
+function ChangeColor()   
+     {  
+          document.getElementById('btn1').style.backgroundColor = 'Red';  
+          setTimeout("ChangeColor2()", 2000); 
+   
+     }
+
+     function ChangeColor2()   
+     {  
+          document.getElementById('btn1').style.backgroundColor = 'Pink';  
+          setTimeout("ChangeColor3()", 2000);  
+     }
+
+</script>
+
+   
+
+
+
+</body>
+</html>
