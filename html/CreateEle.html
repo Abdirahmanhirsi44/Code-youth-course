@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let olist = document.createElement("ol")
+        let list1 =[];
+        for (let i=0; i<5; i++){
+        list1[i] = document.createElement("li")
+        }
+        list1[0].innerText="Apples"
+        list1[1].innerText="Banana"
+        list1[2].innerText="Kiwi"
+        list1[3].innerText="Grapes"
+        list1[4].innerText="Orange"
+        
+
+        for (i=0;i<5;i++){
+        olist.appendChild(list1[i])
+        }
+        document.body.appendChild(olist)
+    </script> -->
+    <!-- let h1 = document.querySelector("h1");
+    h1.innerHTML= "list of Fruits"; -->
+
+<!-- <a href = "https://www.yahoo.com/">yahoo</a>
+<button onclick="change()">Change Website</button>
+<button onclick="image1()">New Image</button>
+<script>
+    function change(){
+    let a = document.querySelector("a");
+    a.innerHTML= "https://google.com/";
+    }
+    function image1(){
+        let b1 = document.createElement("img")
+        b1.src= "./image/googleicon.jpeg"
+        document.body.appendChild(b1) -->
+
+        
+    <!-- }
+</script> -->
+
+<p id="first">First</p>
+<p id="second">Second</p>
+<p id="third">Third</p>
+<p id="foruth">Fourth</p>
+<button onclick="change()">Click Me</button>
+<script>
+function change(){
+    let newp = document.createElement("p");
+    newp.innerHTML="New Paragraph";
+    newp.style.color="red";
+    let p1 = document.getElementById("first");
+    let p3 = document.getElementById("third");
+    document.body.insertBefore(newp,p3);
+}
+
+</script>
+
+
+</body>
+</html>
