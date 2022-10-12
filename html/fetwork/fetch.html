@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <tables></tables>
+    <tr></tr>
+    <script>
+       fetch("books.json")
+       .then(response => response.json())
+       .then(resp => {
+        for(let i in resp){
+            let tr = document.createElement("tr");
+            for (let b in resp[i]){
+                let td = doucment.createElement("td");
+                td.innerHTML = resp[i[b]]
+                tr.appendChild(td)
+            }
+        document.getElementsByTagName("tbdoy")[0].appendChild(tr)
+        }
+
+       })
+       
+    </script>
+       
+       
+       
+       
+       <!-- // let url = "books.json";
+        // fetch(books.json)
+        // .then((res) =>
+        // {
+        //     return res.json();
+            
+
+        // })
+        
+        // .then((data) => {
+        //     console.log("data",data);
+        //     data.forEach(element => {
+        //         let tr = document.createElement("tr");
+        //         tr.innerHTML = element.name;
+        //         document.querySelector("tables").appendChild(tr)
+        //         console.log(element.name)
+        //     })
+        // }) -->
+       
+</body>
+</html>
