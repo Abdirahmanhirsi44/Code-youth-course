@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// let url = "https://datausa.io/api/data?drilldowns=Nation&measures=Population";
+// fetch(url)
+// .then((res => res.json))
+// .then((data) => {
+// console.log("data",data)
+// let table = document.createDocumentFragment("table")
+// let temp = ""
+// for (let i =0; i<data.entries.length;i++){
+//     console.log + data.entries[i].API+"</td>"
+// }
+
+
+
+
+// })
+// .catch(err=>console.error(err))
+
+
+
+
+fetch("https://reqres.in/api/users")
+.then (response => response.json())
+.then (resp=> {
+    console.log(resp.data[0])
+    
+
+    
+
+
+})
+
+
+
+   </script>
+</body>
+</html>
