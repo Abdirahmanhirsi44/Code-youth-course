@@ -1,0 +1,18 @@
+.data{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:40px;
+    margin:20px;
+
+}
+
+.item{
+    height: 410px;
+    width: 200px;
+    border:2px solid black
+}
+
+.item :hover{
+    transform: scale(1.04);
+    transition-duration: 0.8s;
+}
