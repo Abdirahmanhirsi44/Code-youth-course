@@ -1,0 +1,30 @@
+*CREATE A DATABASE*
+psql# CREATE A DATABASE test_db
+
+*To CHECK DATABASE*
+psql# \l
+
+*To connect to database*
+psql# \c test_db
+
+*to create a table*
+psql# CREATE TABLE users(
+    ID INT PRIMARY KEY,
+    name Varchar(50),
+    address TEXT
+);
+
+*to check table*
+psql# \dt
+
+*to insert data into table*
+psql# INSERT INTO users(ID,name, address) VALUES(1,'john', 'Canada')
+VALUES(2,'bob','USA')
+VALUES(3,'carol','UK');
+
+
+*to view all records in users table*
+psql# select * from users
+
+*to Reset ALL Values*
+/r or /reset
