@@ -1,5 +1,5 @@
 *CREATE A DATABASE*
-psql# CREATE A DATABASE test_db
+psql# CREATE  DATABASE test_db
 
 *To CHECK DATABASE*
 psql# \l
@@ -18,9 +18,7 @@ psql# CREATE TABLE users(
 psql# \dt
 
 *to insert data into table*
-psql# INSERT INTO users(ID,name, address) VALUES(1,'john', 'Canada')
-VALUES(2,'bob','USA')
-VALUES(3,'carol','UK');
+psql# INSERT INTO users(ID,name, address) VALUES(1,'john', 'Canada') VALUES(2,'bob','USA') VALUES(3,'carol','UK');
 
 
 *to view all records in users table*
@@ -28,3 +26,18 @@ psql# select * from users
 
 *to Reset ALL Values*
 /r or /reset
+
+DROP TABLE 
+
+Drop DATABASE
+
+
+create table order1(order1_id SERIAL PRIMARY KEY, item INT, amount NUMBER, cust_id INT REFERENCES users(id));
+
+
+
+
+
+CREATE TABLE Persons ( PersonID int, LastName varchar(255), FirstName varchar(255), Address varchar(255),City varchar(255));
+
+CREATE TABLE work_stuff(work_id INT, name VARCHAR(50), salary VARCHAR(200), gender INT, dept VARCHAR(50);
