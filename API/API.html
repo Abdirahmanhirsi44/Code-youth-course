@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-        const api_url='https://www.themealdb.com/api/json/v1/1/search.php?f=a'
+        const api_url='https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast'
         async function getapi(){
             const response = await fetch(api_url)
             const data = await response.json();
